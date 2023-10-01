@@ -1,5 +1,42 @@
 # Assignment-2-Cryptography
 
+# Playfair Cipher
+
+This repository contains a Java implementation of the Playfair cipher algorithm. The Playfair cipher is a symmetric encryption technique that operates on pairs of letters (digraphs) instead of individual letters. It was invented by Charles Wheatstone in 1854 and was later popularized by Lord Playfair.
+
+## Features
+
+- Encryption and decryption of messages using the Playfair cipher algorithm.
+- Support for handling digraphs and special cases.
+- User-friendly command-line interface for input and output.
+
+## Usage
+
+1. Clone the repository: `git clone https://github.com/your-username/playfair-cipher.git`
+2. Compile the Java source code: `javac Playfair.java`
+3. Run the program: `java Playfair`
+
+## How it works
+
+1. The `Playfair` class defines methods for encryption and decryption using the Playfair cipher algorithm.
+2. The `cipher` method takes an input message and applies the Playfair cipher rules to encode it.
+3. The `encodeDigraph` method encodes the digraphs of the input message based on the cipher's specifications.
+4. The `decode` method decodes the output from the cipher and reverses the encoding process.
+5. The `getPoint` method returns the row and column indices of a given letter in the cipher table.
+
+## Example
+
+```java
+Playfair playfair = new Playfair();
+String message = "HELLO";
+String encryptedMessage = playfair.cipher(message);
+String decryptedMessage = playfair.decode(encryptedMessage);
+
+System.out.println("Original Message: " + message);
+System.out.println("Encrypted Message: " + encryptedMessage);
+System.out.println("Decrypted Message: " + decryptedMessage);
+```
+
 # RSA Encryption and Decryption for [RSA.py](RSA.py)
 
 This is a Python code snippet that demonstrates the RSA encryption and decryption algorithm. The code defines a function `RSA` that takes three parameters: `p`, `q`, and `message`. It performs the RSA encryption and decryption process using the given parameters.
