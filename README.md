@@ -12,7 +12,7 @@ This repository contains a Java implementation of the Playfair cipher algorithm.
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/playfair-cipher.git`
+1. Clone the repository: `git clone https://github.com/Noaht8/Assignment-2-Cryptography.git`
 2. Compile the Java source code: `javac Playfair.java`
 3. Run the program: `java Playfair`
 
