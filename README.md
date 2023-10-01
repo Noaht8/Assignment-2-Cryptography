@@ -1,6 +1,6 @@
 # Assignment-2-Cryptography
 
-# RSA Encryption and Decryption
+# RSA Encryption and Decryption for RSA.py[RSA.py]
 
 This is a Python code snippet that demonstrates the RSA encryption and decryption algorithm. The code defines a function `RSA` that takes three parameters: `p`, `q`, and `message`. It performs the RSA encryption and decryption process using the given parameters.
 
