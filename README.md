@@ -1,6 +1,6 @@
 # Assignment-2-Cryptography
 
-# Playfair Cipher
+# Playfair Cipher using [Playfair.java](Playfair.java)
 
 This repository contains a Java implementation of the Playfair cipher algorithm. The Playfair cipher is a symmetric encryption technique that operates on pairs of letters (digraphs) instead of individual letters. It was invented by Charles Wheatstone in 1854 and was later popularized by Lord Playfair.
 
