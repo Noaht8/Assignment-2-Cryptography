@@ -53,8 +53,9 @@ This is a Python code snippet that demonstrates the RSA encryption and decryptio
 
 ```python
 RSA(p=7, q=11, message=9)
+```
 
 Encrypted message is 37
 Decrypted message is 9
-```
+
 In this example, the message 9 is encrypted using the RSA algorithm with prime numbers 7 and 11. The resulting encrypted message is 37, which is then decrypted back to the original message 9.
