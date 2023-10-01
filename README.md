@@ -24,18 +24,7 @@ This repository contains a Java implementation of the Playfair cipher algorithm.
 4. The `decode` method decodes the output from the cipher and reverses the encoding process.
 5. The `getPoint` method returns the row and column indices of a given letter in the cipher table.
 
-## Example
 
-```java
-Playfair playfair = new Playfair();
-String message = "HELLO";
-String encryptedMessage = playfair.cipher(message);
-String decryptedMessage = playfair.decode(encryptedMessage);
-
-System.out.println("Original Message: " + message);
-System.out.println("Encrypted Message: " + encryptedMessage);
-System.out.println("Decrypted Message: " + decryptedMessage);
-```
 
 # RSA Encryption and Decryption for [RSA.py](RSA.py)
 
